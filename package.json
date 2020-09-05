@@ -1,0 +1,33 @@
+{
+    "name": "speech-to-text",
+    "version": "1.0.0",
+    "description": "Upload Audio File and covert to Text",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wild-bear-stack/Speech-To-Text-NodeJs.git"
+    },
+    "keywords": [
+        "SpeechToText"
+    ],
+    "author": "willcomeo022@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wild-bear-stack/Speech-To-Text-NodeJs/issues"
+    },
+    "homepage": "https://github.com/wild-bear-stack/Speech-To-Text-NodeJs#readme",
+    "dependencies": {
+        "@supercharge/strings": "^1.11.0",
+        "axios": "^0.20.0",
+        "delay": "^4.4.0",
+        "form-data": "^3.0.0",
+        "hmac_sha1": "^0.1.1",
+        "md5": "^2.3.0",
+        "urlencode": "^1.1.0",
+        "utf8": "^3.0.0"
+    }
+}
